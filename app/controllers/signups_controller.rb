@@ -6,13 +6,13 @@ class SignupsController < ApplicationController
   def create
     @signup = Signup.new(signup_params)
     if @signup.save
-      redirect_to 'thanks'
+      redirect_to thanks_path
     else
-      redirect_to 'signups/new'
+      redirect_to new_signup_path
     end
   end
   private 
   def signup_params
-    require(:signup).permit(:firstname, :email)
+    params.require(:signup).permit(:firstname, :email)
   end
 end
