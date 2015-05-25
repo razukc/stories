@@ -12,6 +12,7 @@ h2 {
     font-size: 45px;
     font-weight: 300
 }
+
 .btn-default,
 .btn-primary {
     border-radius: 0;
@@ -22,7 +23,7 @@ h2 {
     background-color: #2E72BD
 }
 .home-main {
-    background: image-url("home-main-f39dde5d0be8697146db17314f8662f2.jpg") no-repeat center center;
+    background: url(/assets/home-main-f39dde5d0be8697146db17314f8662f2.jpg) no-repeat center center;
     background-size: cover;
     height: 700px
 }
