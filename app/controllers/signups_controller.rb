@@ -10,6 +10,7 @@ class SignupsController < ApplicationController
     else
       redirect_to 'signups/new'
     end
+  end
   private 
   def signup_params
     require(:signup).permit(:firstname, :email)

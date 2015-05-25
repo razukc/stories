@@ -1,5 +1,5 @@
 <div class="contact-main"> 
-  <%= image_tag image_path("open.svg"), :alt => "Open", :class=>"icon-menu", :width=>"24px" %>
+  <%= image_tag "open.svg", :alt => "Open", :class=>"icon-menu", :width=>"24px" %>
          <div class="content container">
             <h1>Get the latest updates from Stories</h1>
             <div class="row">
@@ -9,8 +9,8 @@
                     <!--form accept-charset="UTF-8" action="/signups" class="new_signup" id="new_signup" method="post" -->
                         
                         <div class="form-group">
-                          <%= f.label :first_name %>
-                          <%= f.text_field :first_name, :class=>"form-control", :id=>"signup_firstname" %>
+                          <%= f.label :firstname %>
+                          <%= f.text_field :firstname, :class=>"form-control", :id=>"signup_firstname" %>
  </div>
                         <div class="form-group">
                           <%= f.label :email %>
